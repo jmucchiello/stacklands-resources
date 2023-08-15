@@ -1,0 +1,18 @@
+{
+  "id": "resourcesmod_sticks_blueprint",
+  "nameTerm": "resourcesmod_sticks_blueprint",
+  "group": "Resources",
+  "hideFromIdeasTab": true,
+  "hideFromCardopedia": true,
+  "isInvention": false,
+  "needsExactMatch": true,
+  "subprints": [
+    {
+      "RequiredCards": "any_villager, wood, wood, wood, wood, wood",
+      "CardsToRemove": "wood, wood, wood, wood, wood",
+      "ExtraResultCards": "stick, stick, stick, stick, stick",
+      "Time": 40,
+      "statusTerm": "resourcesmod_sticks_making"
+    },
+  ]
+}

@@ -6,6 +6,7 @@ Just a small mod that allows you to make and unmake resources.
 
 * 1x Stone, 1x Villager -> 1x Flint in 10s
 * 1x Sandstone, 1x Villager -> 1x Flint in 10s
+* 5x Wood, 1x Villager -> 5x Stick in 45s
 * 1x Sandstone, 1x Hammer -> 2x Sand in 10s
 * 1x Sandstone, 1x Axe -> 2x Sand in 10s
 * 1x Smithy, 1x Gold Bar, 1x Stone -> 1x Gold Ore in 10s
