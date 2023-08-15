@@ -1,0 +1,18 @@
+{
+  "id": "resourcesmod_ironore_blueprint",
+  "nameTerm": "resourcesmod_ironore_blueprint",
+  "group": "Resources",
+  "hideFromIdeasTab": false,
+  "hideFromCardopedia": false,
+  "isInvention": false,
+  "needsExactMatch": true,
+  "subprints": [
+    {
+      "RequiredCards": "smithy, iron_bar, stone",
+      "CardsToRemove": "iron_bar, stone",
+      "ResultCard": "iron_ore",
+      "Time": 10,
+      "statusTerm": "resourcesmod_ironore_making"
+    }
+  ]
+}

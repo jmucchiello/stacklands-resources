@@ -1,0 +1,19 @@
+{
+  "id": "resourcesmod_sand_blueprint",
+  "nameTerm": "resourcesmod_sand_blueprint",
+  "group": "Resources",
+  "hideFromIdeasTab": false,
+  "hideFromCardopedia": false,
+  "isInvention": false,
+  "needsExactMatch": true,
+  "subprints": [
+   {
+    "RequiredCards": "hammer|axe, sandstone",
+    "CardsToRemove": "sandstone",
+    "ResultCard": null,
+    "ExtraResultCards": "sand, sand",
+    "Time": 10,
+    "statusTerm": "resourcesmod_sand_making",
+   }
+  ]
+}
