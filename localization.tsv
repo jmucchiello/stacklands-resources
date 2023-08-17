@@ -1,12 +1,17 @@
 Term	Notes	English
 resourcesmod_flint_blueprint		Flint
-resourcesmod_flint_making		Breakup some stone
+resourcesmod_flint_making		Breaking up stone
 resourcesmod_sand_blueprint		Sand
-resourcesmod_sand_making		Breakup some stone
+resourcesmod_sand_making		Breaking up stone
+resourcesmod_sand_making2		Breaking up glass
 resourcesmod_ironore_blueprint		Iron Ore
 resourcesmod_ironore_making		Adding some impurities
 resourcesmod_ironore_usingflint		Combining
 resourcesmod_goldore_blueprint		Gold Ore
 resourcesmod_goldore_making		Adding some impurities
-resourcesmod_sticks_blueprint		Sticks
-resourcesmod_sticks_making		Five! Five Sticks!!!!!
+resourcesmod_sticks5_blueprint		Sticks
+resourcesmod_sticks5_making		Five! Five Sticks!!!!!
+resourcesmod_sticks2_blueprint		Sticks
+resourcesmod_sticks2_making		Chopping up lumber
+resourcesmod_stone_blueprint		Stone
+resourcesmod_stone_making		Breaking up brick

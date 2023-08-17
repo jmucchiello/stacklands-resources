@@ -7,12 +7,12 @@
   "isInvention": false,
   "needsExactMatch": true,
   "subprints": [
-   {
-    "RequiredCards": "any_villager, stone",
-    "CardsToRemove": "stone",
-    "ResultCard": "flint",
-    "Time": 10,
-    "statusTerm": "resourcesmod_flint_making",
-   }
+    {
+      "RequiredCards": "any_villager, stone",
+      "CardsToRemove": "stone",
+      "ResultCard": "flint",
+      "Time": 10,
+      "statusTerm": "resourcesmod_flint_making",
+    }
   ]
 }

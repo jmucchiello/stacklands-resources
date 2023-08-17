@@ -1,0 +1,19 @@
+{
+  "id": "resourcesmod_stone_blueprint",
+  "nameTerm": "resourcesmod_stone_blueprint",
+  "group": "Resources",
+  "hideFromIdeasTab": false,
+  "hideFromCardopedia": false,
+  "isInvention": false,
+  "needsExactMatch": true,
+  "subprints": [
+    {
+      "RequiredCards": "brick, hammer",
+      "CardsToRemove": "brick",
+      "ResultCard": null,
+      "ExtraResultCards": "stone, stone",
+      "Time": 15,
+      "statusTerm": "resourcesmod_stone_making",
+    }
+  ]
+}

@@ -7,21 +7,21 @@
   "isInvention": false,
   "needsExactMatch": true,
   "subprints": [
-   {
+    {
     "RequiredCards": "hammer|axe, sandstone",
     "CardsToRemove": "sandstone",
     "ResultCard": null,
     "ExtraResultCards": "sand, sand",
-    "Time": 10,
+    "Time": 15,
     "statusTerm": "resourcesmod_sand_making",
-   },
+    },
     {
-      "RequiredCards": "hammer|axe, glass",
+      "RequiredCards": "hammer, glass",
       "CardsToRemove": "glass",
       "ResultCard": null,
       "ExtraResultCards": "sand, sand",
-      "Time": 10,
-      "statusTerm": "resourcesmod_sand_making"
+      "Time": 15,
+      "statusTerm": "resourcesmod_sand_making2"
     }
   ]
 }

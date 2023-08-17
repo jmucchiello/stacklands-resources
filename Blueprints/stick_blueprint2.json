@@ -1,0 +1,18 @@
+{
+  "id": "resourcesmod_sticks2_blueprint",
+  "nameTerm": "resourcesmod_sticks2_blueprint",
+  "group": "Resources",
+  "hideFromIdeasTab": true,
+  "hideFromCardopedia": true,
+  "isInvention": false,
+  "needsExactMatch": true,
+  "subprints": [
+    {
+      "RequiredCards": "axe, plank",
+      "CardsToRemove": "plank",
+      "ExtraResultCards": "stick, stick",
+      "Time": 15,
+      "statusTerm": "resourcesmod_sticks2_making"
+    }
+  ]
+}

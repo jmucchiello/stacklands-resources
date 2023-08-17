@@ -9,8 +9,6 @@ namespace ResourcesModNS
     {
         public static ModLogger L;
 
-//        private static ConfigEntry<bool> includeMetals;
-//        private void awake(){}
         public override void Ready()
         {
             L = Logger;
