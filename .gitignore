@@ -1,5 +1,8 @@
 bin/
 obj/
 Icon Sources/
-*.user.csproj
+*.csproj.user
+test.txt
+README.cmd
+README.bbcode
 workshop.txt

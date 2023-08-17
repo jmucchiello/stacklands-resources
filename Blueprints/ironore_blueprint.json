@@ -13,6 +13,13 @@
       "ResultCard": "iron_ore",
       "Time": 10,
       "statusTerm": "resourcesmod_ironore_making"
+    },
+    {
+      "RequiredCards": "smelter, flint, charcoal",
+      "CardsToRemove": "flint, charcoal",
+      "ResultCard": "iron_ore",
+      "Time": 10,
+      "statusTerm": "resourcesmod_ironore_making"
     }
   ]
 }
