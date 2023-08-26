@@ -8,8 +8,8 @@
   "needsExactMatch": true,
   "subprints": [
     {
-      "RequiredCards": "smithy, iron_bar, stone",
-      "CardsToRemove": "iron_bar, stone",
+      "RequiredCards": "smithy, iron_bar, charcoal",
+      "CardsToRemove": "iron_bar, charcoal",
       "ResultCard": "iron_ore",
       "Time": 10,
       "statusTerm": "resourcesmod_ironore_making"

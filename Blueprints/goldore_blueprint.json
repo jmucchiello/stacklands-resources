@@ -8,8 +8,8 @@
   "needsExactMatch": true,
   "subprints": [
     {
-      "RequiredCards": "smithy, gold_bar, stone",
-      "CardsToRemove": "gold_bar, stone",
+      "RequiredCards": "smithy, gold_bar, charcoal",
+      "CardsToRemove": "gold_bar, charcoal",
       "ResultCard": "gold_ore",
       "Time": 10,
       "statusTerm": "resourcesmod_goldore_making"

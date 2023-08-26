@@ -18,7 +18,7 @@ namespace ResourcesModNS
         {
             if (otherCard.Id == Cards.flint || otherCard.Id == Cards.charcoal)
             {
-//                ResourcesMod.L.Log("Flint is welcome here."); // don't do this. It gets called alot as soon as you pick up the flint, even from across the board
+//                ResourcesMod.instance.Log("Flint is welcome here."); // don't do this. It gets called alot as soon as you pick up the flint, even from across the board
                 __result = true;
                 return false;
             }
