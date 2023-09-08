@@ -15,3 +15,5 @@ resourcesmod_sticks2_blueprint		Sticks
 resourcesmod_sticks2_making		Chopping up lumber
 resourcesmod_stone_blueprint		Stone
 resourcesmod_stone_making		Breaking up brick
+resourcesmod_tweak_goldmine		Modify Gold Mine to provide Gold Ore more frequently
+resourcesmod_tweak_goldmine_tooltip		Normally Gold Mines provide Coin, Stone, or Gold Ore in equal#proportion. This changes it to 20%, 20%, and 60% respectively

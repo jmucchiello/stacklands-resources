@@ -1,0 +1,18 @@
+{
+  "id": "resourcesmod_magic_dust_blueprint",
+  "nameTerm": "resourcesmod_magic_dust_blueprint",
+  "group": "Resources",
+  "hideFromIdeasTab": false,
+  "hideFromCardopedia": false,
+  "isInvention": false,
+  "needsExactMatch": true,
+  "subprints": [
+    {
+      "RequiredCards": "mage|wizrd, gold_ore, sand, campfire",
+      "CardsToRemove": "gold_ore,sand,campfire",
+      "ResultCard": "magic_dust",
+      "Time": 60,
+      "statusTerm": "resourcesmod_magic_dust_making"
+    }
+  ]
+}

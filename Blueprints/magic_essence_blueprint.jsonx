@@ -1,0 +1,19 @@
+{
+  "id": "resourcesmod_magic_essence_blueprint",
+  "nameTerm": "resourcesmod_magic_essence_blueprint",
+  "group": "Resources",
+  "hideFromIdeasTab": false,
+  "hideFromCardopedia": false,
+  "isInvention": false,
+  "needsExactMatch": true,
+  "subprints": [
+    {
+      "RequiredCards": "magic_dust, magic_dust, magic_dust, magic_dust, magic_dust, mage|wizard",
+      "CardsToRemove": "magic_dust, magic_dust, magic_dust, magic_dust, magic_dust",
+      "ResultCard": "resourcesmod_magic_essence",
+      "ExtraResultCards": "",
+      "Time": 30,
+      "statusTerm": "resourcesmod_magic_essence_making",
+    }
+  ]
+}
