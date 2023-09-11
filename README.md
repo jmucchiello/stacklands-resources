@@ -31,7 +31,7 @@ Weapons, buildings, and villagers are not consumed in these recipes.
 
 ## Rebalancing
 
-* The gold mine usually gives you gold ore, stone, or golg coin in equal porportion (33%/33%/33%). This tweak makes the distribution 60%/20%/20% in favor of gold ore.
+* The gold mine usually gives you gold ore, stone, or golg coin in equal porportion (33%/33%/33%). This tweak makes the distribution 60%/20%/20% in favor of gold ore. You can disable this change in the mod's option screen.
 
 ## Future Ideas
 

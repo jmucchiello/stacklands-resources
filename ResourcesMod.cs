@@ -19,7 +19,7 @@ namespace ResourcesModNS
             modifyGoldMine = new ConfigEntry<bool>("resourcesmod_config_goldmine", Config, true, new ConfigUI()
             {
                 NameTerm = "resourcesmod_tweak_goldmine",
-                TooltipTerm = "resourcesmod_tweak_goldmin_tooltip",
+                TooltipTerm = "resourcesmod_tweak_goldmine_tooltip",
             });
         }
 
@@ -30,15 +30,24 @@ namespace ResourcesModNS
             Config.OnSave += MinorBalanceTweaks;
             WorldManager.instance.actionTimeBases.Add(new ActionTimeBase((ActionTimeParams p) =>
                 p.villager.Id == Cards.lumberjack && p.baseCard.CardsInStackMatchingPredicate(card => card.Id == Cards.wood || card.Id == Cards.stick).Any(), 0.5f));
+            MinorBalanceTweaks();
             Logger.Log("Ready!");
         }
 
         public void MinorBalanceTweaks()
         {
             CardData cardData = WorldManager.instance.GameDataLoader.GetCardFromId(Cards.gold_mine);
-            if (cardData is Harvestable h)
+            if (cardData is CombatableHarvestable ch)
             {
-                h.MyCardBag.Chances.FirstOrDefault(x => x.Id == Cards.gold_ore).Chance = modifyGoldMine.Value ? 3 : 1;
+                CardBag bag = ch.MyCardBag;
+                CardChance cc = bag.Chances.FirstOrDefault(x => x.Id == Cards.gold_ore);
+                cc.Chance = modifyGoldMine.Value ? 3 : 1;
+                float num = bag.Chances.Sum(x => (float)x.Chance);
+                foreach (CardChance x in bag.Chances)
+                {
+                    x.PercentageChance = x.Chance / num;
+                }
+                Log($"Goldmine {cc.Chance}, {cc.PercentageChance}");
             }
         }
     }
