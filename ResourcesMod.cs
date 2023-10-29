@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using CommonModNS;
 
 namespace ResourcesModNS
 {
@@ -16,18 +17,22 @@ namespace ResourcesModNS
         {
             instance = this;
             Harmony.PatchAll();
-            modifyGoldMine = new ConfigEntry<bool>("resourcesmod_config_goldmine", Config, true, new ConfigUI()
+            modifyGoldMine = new ConfigEntryBool("resourcesmod_config_goldmine", Config, true, new ConfigUI()
             {
                 NameTerm = "resourcesmod_tweak_goldmine",
                 TooltipTerm = "resourcesmod_tweak_goldmine_tooltip",
             });
+            Config.OnSave += MinorBalanceTweaks;
         }
 
-        private ConfigEntry<bool> modifyGoldMine;
+        private ConfigEntryBool modifyGoldMine;
 
         public override void Ready()
         {
-            Config.OnSave += MinorBalanceTweaks;
+            //foreach (Mod mod in ModManager.LoadedMods) Log($"Found mod: {mod.Manifest.Id}");
+            Mod strict = ModManager.LoadedMods.Find(x => x.Manifest.Id == "strictmode_mod");
+            Log($"{(strict == null ? "Did not find" : "Found")} strict mode mod");
+
             WorldManager.instance.actionTimeBases.Add(new ActionTimeBase((ActionTimeParams p) =>
                 p.villager.Id == Cards.lumberjack && p.baseCard.CardsInStackMatchingPredicate(card => card.Id == Cards.wood || card.Id == Cards.stick).Any(), 0.5f));
             MinorBalanceTweaks();

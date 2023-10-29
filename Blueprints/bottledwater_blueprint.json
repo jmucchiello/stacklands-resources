@@ -1,0 +1,43 @@
+{
+  "id": "resourcesmod_bottle_of_water_blueprint",
+  "nameTerm": "resourcesmod_bottle_of_water_blueprint",
+  "group": "Resources",
+  "hideFromIdeasTab": false,
+  "hideFromCardopedia": false,
+  "isInvention": false,
+  "needsExactMatch": true,
+  "subprints": [
+    {
+      "RequiredCards": "well, empty_bottle",
+      "CardsToRemove": "empty_bottle",
+      "ResultCard": "bottle_of_water",
+      "ExtraResultCards": null,
+      "Time": 15,
+      "statusTerm": "resourcesmod_bottling"
+    },
+    {
+      "RequiredCards": "well|wishing_well, bottle_of_water",
+      "CardsToRemove": "bottle_of_water",
+      "ResultCard": "empty_bottle",
+      "ExtraResultCards": null,
+      "Time": 3,
+      "statusTerm": "resourcesmod_emptying_bottle"
+    },
+    {
+      "RequiredCards": "well, water",
+      "CardsToRemove": "water",
+      "ResultCard": null,
+      "ExtraResultCards": null,
+      "Time": 3,
+      "statusTerm": "resourcesmod_dumping_water"
+    },
+    {
+      "RequiredCards": "wishing_well, water",
+      "CardsToRemove": "water",
+      "ResultCard": null,
+      "ExtraResultCards": null,
+      "Time": 3,
+      "statusTerm": "resourcesmod_dumping_water"
+    }
+  ]
+}

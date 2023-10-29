@@ -29,9 +29,19 @@ Weapons, buildings, and villagers are not consumed in these recipes.
 ### Magic Dust
 * 1x Gold Ore, 1x Sand, 1x Campfire, 1x Wizard/Mage -> 1x Magic Dust, 1x Wizards/Mage _in 60s_<br>(The campfire is destroyed. This recipe does not work on a stove.)
 
-## Rebalancing
+### Water
+Why can't you dump water back into a well? And why can't you fill an empty bottle from a well?
+* 1x Well, 1x Empty Bottle => 1x Well, 1x Bottle of Water _in 15s_
+* 1x Well, 1x Water => 1x Well _in 3s_
+* 1x Wishing Well, 1x Water => 1x Well _in 3s_
+* 1x Well, 1x Bottle of Water => 1x Well, 1x Empty Bottle _in 3s_
+* 1x Wishing Well, 1x Bottle of Water => 1x Well, 1x Empty Bottle _in 3s_
 
-* The gold mine usually gives you gold ore, stone, or golg coin in equal porportion (33%/33%/33%). This tweak makes the distribution 60%/20%/20% in favor of gold ore. You can disable this change in the mod's option screen.
+## Rebalancing and Minor Tweaks
+
+__Rebalance:__ The gold mine usually gives you gold ore, stone, or golg coin in equal porportion (33%/33%/33%). This tweak makes the distribution 60%/20%/20% in favor of gold ore. You can disable this change in the mod's option screen.
+
+__Tweak:__ Sheds, Warehouses, and Lighthouses can be mixed together in one stack.
 
 ## Future Ideas
 
@@ -41,6 +51,6 @@ Github: https://github.com/jmucchiello/stacklands-resources
 
 ## History
 
-1.0.2 magic dust recipe and gold mine tweak<br/>
+1.0.2 magic dust recipe and gold mine tweak, added water recipes<br/>
 1.0.1 fixes to metal recipes<br/>
 1.0.0 initial release

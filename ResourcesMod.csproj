@@ -14,6 +14,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\stacklands-common\ConfigEntryBool.cs" Link="Common\ConfigEntryBool.cs" />
+    <Compile Include="..\stacklands-common\ConfigEntryHelper.cs" Link="Common\ConfigEntryHelper.cs" />
+    <Compile Include="..\stacklands-common\Instances.cs" Link="Common\Instances.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>$(stacklands)/Stacklands_Data/Managed/0Harmony.dll</HintPath>
       <Private>False</Private>
@@ -85,5 +91,9 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
   </ItemGroup>
 </Project>

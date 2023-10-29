@@ -18,3 +18,7 @@ resourcesmod_stone_making		Breaking up brick
 resourcesmod_magic_dust_making		A little Hocus Pocus...
 resourcesmod_tweak_goldmine		Modify Gold Mine to provide Gold Ore more frequently
 resourcesmod_tweak_goldmine_tooltip		Normally Gold Mines provide Coin, Stone, or Gold Ore in equal#proportion. This changes it to 20%, 20%, and 60% respectively
+resourcesmod_bottle_of_water_blueprint		Bottle of Water
+resourcesmod_bottling		Filling bottle
+resourcesmod_emptying_bottle		Emptying bottle
+resourcesmod_dumping_water		Dumping water

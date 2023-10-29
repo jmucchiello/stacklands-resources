@@ -2,5 +2,6 @@
 	"id": "resources_mod",
 	"name": "Resources Mod",
 	"version": "1.0.0",
-	"author": "Joe Mucchiello"
+	"author": "Joe Mucchiello",
+	"optional": "strictmode_mod"
 }
